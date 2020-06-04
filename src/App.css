@@ -6,7 +6,7 @@
   font-family: "Lucida Console", Courier, monospace;
 }
 
-h1, p, button {
+a, h1, h2, h3, h4, p, button {
   font-family: "Lucida Console", Courier, monospace;
 }
 
@@ -14,11 +14,11 @@ button.ui.button{
   background-color: #F1E9DA;
   color: #0E0004;
   font-family: "Lucida Console", Courier, monospace;
+  border-radius: 25px;
 }
 
 button.ui.button:hover{
   background-color: #D90368;
-  font-style: italic;
 }
 
 button.ui.button:active{
