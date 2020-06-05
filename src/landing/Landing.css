@@ -1,0 +1,12 @@
+div.robe-unicorn-div {
+    display: flex;
+    justify-content: center;
+}
+
+
+img.robe-unicorn-img {
+    margin: auto 0;
+    width: auto;
+    height: 80vh;
+    border-radius: 5vh;
+}

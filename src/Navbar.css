@@ -1,9 +1,12 @@
+
+/* TITLE JASON MELTON */
 .title-name{
     display: flex;
     justify-content: center;
     padding: 3vh 0 0 0;
 }
 
+/* NAVBAR CONTAINER */
 div.ui.segment.navbar-container{
     height: 10vh;
     background-color: #0E0004;
@@ -14,10 +17,21 @@ div.ui.segment.navbar-container{
     align-items: center;
 }
 
+/* 
+
+Make items disappear when screen gets to be a certain size:
+@media screen and (max-width: 600px) {
+    div.ui.segment.navbar-container{ display: none }
+} 
+
+*/
+
+/* NAVBAR ITEMS */
 div.ui.segment.navbar-item{
     margin: 0;
     background-color: #0E0004;
     color: hsl(39, 45%, 90%);  
+    flex-shrink: 0.5;
 }
 
 div.ui.segment.navbar-item:hover{
@@ -41,4 +55,8 @@ h3.clicked{
 
 img.navbar-star{
     height: 2em;
+}
+
+h3 { 
+    white-space: nowrap; 
 }
