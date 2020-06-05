@@ -16,6 +16,10 @@ class Navbar extends React.Component{
   render(){
     const {activeItem} = this.state
     return (
+      <>
+      <div className='title-name'>
+        <h1>JASON MELTON</h1>
+      </div>
       <Segment className="navbar-container">
 
         <Segment className="navbar-item" >
@@ -60,6 +64,7 @@ class Navbar extends React.Component{
           </h3>
         </Segment>
       </Segment>
+      </>
     );
 
   }

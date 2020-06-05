@@ -1,3 +1,9 @@
+.title-name{
+    display: flex;
+    justify-content: center;
+    padding: 3vh 0 0 0;
+}
+
 div.ui.segment.navbar-container{
     height: 10vh;
     background-color: #0E0004;
